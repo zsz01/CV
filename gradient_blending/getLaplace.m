@@ -9,6 +9,5 @@ imLap = img;
 for i = 1:size(img, 3)
     imLap(:,:,i) = conv2(img(:,:,i), w, 'same');
 end
-
 end
 
